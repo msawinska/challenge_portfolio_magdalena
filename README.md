@@ -6,7 +6,7 @@ Dlaczego zdecydował_ś się na udział w challenge portfolio?
 * Jestem mamą powracającą do zawodowej aktywności po okresie towarzyszenia dzieciom w edukacji domowej. Chcę się przebranżowić i aktywnie działam w tym kierunku. Uczestniczę w programie mentoringowym firmy Roche, szkolę się także we własnym zakresie. W związku z tym chcę prezentować efekty swojej aktywności w portfolio. Dlatego też postanowiłam wziąć udział w wyzwaniu. Chcę dowiedzieć się jak takie profesjonalne portfolio powinno wyglądać, poznać dobre praktyki w tym zakresie. Poza tym wyzwanie wymaga systematyczności i pozwala uzyskać feedback, co skłoniło mnie do skorzystania właśnie z tej formy nauki.
 ## Subtask 4
 ### Opis aplikacji 'Scout Panel'
-Aplikacja 'Scouts Panel' gromadzi dane o zawodnikach, rozegranych przez nich meczach oraz pozwala na generowanie raportów na temat konkretnego zawodnika (m.in. zdobyte, stracone gole, przeprowadzone przez zawodnika akcje, jego punktową ocenę w skali 1-5). Aplikacja pozwala dodać informacje na temat udziału zawodnika w meczu (m.in. strzały, podania, dośrodkowania, faule). 
+Aplikacja ('Scouts Panel')[https://scouts-test.futbolkolektyw.pl/pl] gromadzi dane o zawodnikach, rozegranych przez nich meczach oraz pozwala na generowanie raportów na temat konkretnego zawodnika (m.in. zdobyte, stracone gole, przeprowadzone przez zawodnika akcje, jego punktową ocenę w skali 1-5). Aplikacja pozwala dodać informacje na temat udziału zawodnika w meczu (m.in. strzały, podania, dośrodkowania, faule). 
 ### Funkcjonalności aplikacji 'Scout Panel'
 \1 logowanie/wylogowanie
   * logowanie do aplikacji
