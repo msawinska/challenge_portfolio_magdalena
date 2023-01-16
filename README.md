@@ -95,10 +95,15 @@ Aplikacja 'Scouts Panel' gromadzi dane o zawodnikach, rozegranych przez nich mec
  
 ### Ocena interfejs aplikacji
 \1 Wygląd
+
 Czytelny, estetyczny wygląd, który nie utrudnia korzystania z aplikacji. 
+
 \2 Intuicyjność
+
 Aplikacja intuicyjna, łatwa w obsłudze mimo braku opisania funkcji niektórych przycisków. 
+
 \3 Błędy
+
 * wybór kolumn do wyświetlenia - po wyborze i zmianie na kolejne rekordy tabeli '>' zawsze wyświetla kolumnę 'recenzja' (błąd, czy zamierzone?)
 * filtrowanie kolumn - aplikacja odfiltrowuje dane, jeśli występuje w nich podany ciąg znaków, nie ma opcji odfiltrowywania dokładnie podanego ciągu znaków (zamierzone, czy błąd?)
 * aplikacja akceptuje przyszłą datę, jako datę urodzenia
