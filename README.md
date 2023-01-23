@@ -127,5 +127,5 @@ Aplikacja intuicyjna, łatwa w obsłudze mimo braku opisania funkcji niektórych
 ## [Subtask 1](https://docs.google.com/spreadsheets/d/1kGgYhcfAwo9Q-UrYPQqeadWV7xBbvT0GQWWaIVEjMQM/edit?usp=share_link)
 ## [Subtask 2](https://docs.google.com/spreadsheets/d/1cZfJawMF8VghIOzEOP1XRp8eheoOJqY7NNRadsEGaIg/edit?usp=sharing)
 ## Subtask 3
-<video src='(https://drive.google.com/file/d/12Ku1WLCPpkYPQ6grqia7RwJ-NOMm1ZSm/view?usp=share_link)' width=180/>
+<video src='https://drive.google.com/file/d/12Ku1WLCPpkYPQ6grqia7RwJ-NOMm1ZSm/view?usp=share_link' width=180/>
 ## Subtask 4
