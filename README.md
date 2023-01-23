@@ -123,3 +123,8 @@ Aplikacja intuicyjna, łatwa w obsłudze mimo braku opisania funkcji niektórych
 * aplikacja akceptuje wpisane ujemnej wartości w polu czas gry
 * w funkcjonalności 'rozpocznij mecz' przyciski nie zostały opisane (po najechaniu myszką na przycisk nie wyświetla się podpowiedź o jego funkcji)
 * w funkcjonalności 'rozpocznij mecz' wybór połowy meczu nie został ograniczony do dwóch
+# Task 2
+## [Subtask 1](https://docs.google.com/spreadsheets/d/1kGgYhcfAwo9Q-UrYPQqeadWV7xBbvT0GQWWaIVEjMQM/edit?usp=share_link)
+## [Subtask 2](https://docs.google.com/spreadsheets/d/1cZfJawMF8VghIOzEOP1XRp8eheoOJqY7NNRadsEGaIg/edit?usp=sharing)
+## Subtask 3
+## SUbtask 4
