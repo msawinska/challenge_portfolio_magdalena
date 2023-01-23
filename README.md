@@ -129,5 +129,9 @@ Aplikacja intuicyjna, łatwa w obsłudze mimo braku opisania funkcji niektórych
 ## Subtask 3
 Przypadki testowe pozwalają nam na metodyczne podejście do testowania. Wtedy, gdy pożądane jest uzyskanie określonego pokrycia testami przygotowanie zestawu przypadków testowych może okazać się niezbędne. 
 Spisane przypadki testowe mogą służyć także na etapie przygotowywania testów regresji, a także w automatyzacji testowania. 
-![video](https://user-images.githubusercontent.com/116153467/214159354-c23d9a77-a5a8-488b-bdf3-27d47f701a54.mp4)
+
+
+https://user-images.githubusercontent.com/116153467/214162117-189625a5-3f3f-42f8-b111-9d7c02eb5eff.mp4
+
+
 ## Subtask 4
