@@ -138,5 +138,5 @@ https://user-images.githubusercontent.com/116153467/214162117-189625a5-3f3f-42f8
 
 # Task 3
 ## [Subtask 1 i 2](https://docs.google.com/spreadsheets/d/13FTtIAAc2VLeRaXbsxK6MVRgBPc27l0l0zXbACIqL98/edit?usp=sharing)
-## [Subtask 3]Raport z wykonanych testów(https://docs.google.com/spreadsheets/d/1p1exlfE12LnTY-XZhSUsZyc0gE-eknjC0SJ21JXYtVM/edit?usp=sharing)
+## Subtask 3 [Raport z wykonanych testów](https://docs.google.com/spreadsheets/d/1p1exlfE12LnTY-XZhSUsZyc0gE-eknjC0SJ21JXYtVM/edit?usp=sharing)
 ## Subtask 4
