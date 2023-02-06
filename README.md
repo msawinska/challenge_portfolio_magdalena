@@ -143,22 +143,31 @@ https://user-images.githubusercontent.com/116153467/214162117-189625a5-3f3f-42f8
 # :computer: TASK 4 :computer: Testowanie aplikacji mobilnych
 ## Subtask 2 [Testowanie eksploracyjne i raportowanie błędów]()
 ## Subtask 3 Do czego służy aplikacja?
-* Do czego służy ta aplikacja? Jaki jest cel tej aplikacji?
+
+:question: Do czego służy ta aplikacja? Jaki jest cel tej aplikacji?
 Aplikacja jest wirtualną tablicą ogłoszeń dotyczących:
-** sprzedaży dóbr
-** sprzedazy usług
-** ofert pracy
-** wymiany dóbr i usług
-** oceny doświadczenia zakupowego
-** komunikacji pomiędzy uczestnikami 
+  * sprzedaży dóbr
+  * sprzedazy usług
+  * ofert pracy
+  * wymiany dóbr i usług
+  * oceny doświadczenia zakupowego
+  * komunikacji pomiędzy uczestnikami 
 Aplikacja służy zarówno użytkownikom prywatnym jak i firmom (profil użytkowika definiowany jest na etapie rejestracji konta).
 Oferty są podzielone na kategorie, w ramach których można wyszukiwać. Wyszukiwanie może zostać ograniczone także wg kryterów lokalizacji, ceny, stanu przedmiotu oferty (używany/nowy/uszkodzony). 
-* Kto ma być użytkownikiem końcowym aplikacji?
+
+:question:Kto ma być użytkownikiem końcowym aplikacji?
+
 Użytkownikiem końcowym aplikacji jest osoba zdolna do czynności prawnej jaką jest zakup dobra lub usługi. 
-* Czy według Ciebie aplikacja jest user friendly? (Przyjazna dla użytkownika- np. wchodzisz do aplikacji i szybko łapiesz do czego służą przyciski. Poczytaj na ten temat w internecie- co to znaczy, że aplikacja jest przyjazna dla użytkownika)
+
+:question: Czy według Ciebie aplikacja jest user friendly? (Przyjazna dla użytkownika- np. wchodzisz do aplikacji i szybko łapiesz do czego służą przyciski. Poczytaj na ten temat w internecie- co to znaczy, że aplikacja jest przyjazna dla użytkownika)
+
 Aplikacja jest moim zdaniem user friendly. Jest intuicyjna, przejrzysta, ma dobrze zorganizowaną nawigację i opcje filtrowania. Jest estetyczna wizualnie, formularze w niej zastosowane są adaptują się do orientacji poziomej/pionowej, responsywność nie budzi zastrzeżeń. Linki i nawigacja działają poprawnie. 
-* Jak byś usprawnił aplikację? Co byś w niej poprawił. Czy masz jakiś pomysł na dodatkową funkcjonalność? (Żeby nie było: nie jest to aplikacja przy której pracuję, takie pytania pojawiają się na rozmowach rekrutacyjnych dlatego dobrze jest to przećwiczyć :D )
+
+:question: Jak byś usprawnił aplikację? Co byś w niej poprawił. Czy masz jakiś pomysł na dodatkową funkcjonalność? (Żeby nie było: nie jest to aplikacja przy której pracuję, takie pytania pojawiają się na rozmowach rekrutacyjnych dlatego dobrze jest to przećwiczyć :D )
+
 Dodałabym wersje językowe aplikacji (min. English),  łatwo dostępną opcję przełączenia języka obsługi aplikacji.
-* Jakie dostrzegasz różnice pomiędzy testowaniem aplikacji internetowej, a natywnej?
+
+:question: Jakie dostrzegasz różnice pomiędzy testowaniem aplikacji internetowej, a natywnej?
+
 Testowanie aplikacji natywnej opiera się na łatwiejszym gromaczeniu i analizowaniu danych o użytkownikach, a także ich lokalizacji. Aplikacja natywna działa bez dostępu do sieci, choć jej funkcje mogą być wówczas ograniczone. Aplikacja internetowa jest uzależniona od dostępu do sieci, a tym samym jej testowanie. Aplikacja natywna ma dostęp do danych i innych aplikacji na urządzeniu (zdjęcia/ kalendarz...), co też wymaga testowania prawidłowej integracji tych usług.
 
