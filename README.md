@@ -249,6 +249,11 @@ AND movie_id BETWEEN 2 AND 8
 # :computer: TASK 6 :computer: SQL part 2
 ## Subtask 3 
 \11. Popełniłam błąd wpisując nazwisko Ani Miler – wpisałam Muler. Znajdź i zastosuj funkcję, która poprawi mój karkołomny błąd 🙈
+```sql
+UPDATE customers
+SET surname = 'Miler'
+WHERE surname = 'Muler'
+```
 
 ![image](https://user-images.githubusercontent.com/116153467/219617215-054bca11-3264-46bf-9f95-d507fea1313a.png)
 
@@ -265,10 +270,22 @@ WHERE m.movie_id = 4
 ![image](https://user-images.githubusercontent.com/116153467/219618767-f339d5ab-2c7a-4495-ad6e-3cb12e12da1f.png)
 
 \13. Na pewno zauważył_ś, że sprzedawca zapomniał wpisać emaila klientce Patrycji. Uzupełnij ten brak wpisując: pati@mail.com
-
+```sql
+UPDATE customers
+SET email = 'pati@mail.com'
+WHERE surname = 'Komor'
+```
 ![image](https://user-images.githubusercontent.com/116153467/219619100-df4ba546-87cf-4582-b836-e5b648524c4c.png)
 
 \14. Dla każdego zakupu wyświetl, imię i nazwisko klienta, który dokonał wypożyczenia oraz tytuł wypożyczonego filmu. (wykorzystaj do tego funkcję inner join, zastanów się wcześniej, które tabele Ci się przydadzą do wykonania ćwiczenia).
+```sql
+SELECT c.name
+,c.surname
+,m.title
+FROM customers AS c JOIN sale AS s ON c.customer_id = s.customer_id
+JOIN movies AS m ON m.movie_id = s.movie_id
+```
+![image](https://user-images.githubusercontent.com/116153467/219621137-fdcf4f88-9407-4b9f-aae9-ba4ffc1e7579.png)
 
 \15. W celu anonimizacji danych, chcesz stworzyć pseudonimy swoich klientów. - Dodaj kolumnę o nazwie ‘pseudonym’ do tabeli customer,- Wypełnij kolumnę w taki sposób, aby pseudonim stworzył się z dwóch pierwszych liter imienia i ostatniej litery nazwiska. Np. Natalie Pilling → Nag
 
