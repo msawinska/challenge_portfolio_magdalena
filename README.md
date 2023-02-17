@@ -247,7 +247,7 @@ AND movie_id BETWEEN 2 AND 8
 ![image](https://user-images.githubusercontent.com/116153467/217802132-1572c7ea-40e0-4424-8c41-f4fe1710afbd.png)
 
 # :computer: TASK 6 :computer: SQL part 2
-## Subtask 3 
+## Subtask 1
 \11. Popełniłam błąd wpisując nazwisko Ani Miler – wpisałam Muler. Znajdź i zastosuj funkcję, która poprawi mój karkołomny błąd 🙈
 ```sql
 UPDATE customers
@@ -342,3 +342,6 @@ VALUES ('7', 'honia@mail.com', 'Honia', 'Hoa', 'Stuczka-Kucharska');
 ```
 ![image](https://user-images.githubusercontent.com/116153467/219656183-3257d5c6-0065-4233-a405-a8d3c65ba5de.png)
 
+## Subtask 2 14/15
+
+## Subtask 3 [Portfolio](https://github.com/msawinska/portfolio/blob/main/README.md)
