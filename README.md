@@ -171,7 +171,7 @@ Dodałabym wersje językowe aplikacji (min. English),  łatwo dostępną opcję 
 
 Testowanie aplikacji natywnej opiera się na łatwiejszym gromaczeniu i analizowaniu danych o użytkownikach, a także ich lokalizacji. Aplikacja natywna działa bez dostępu do sieci, choć jej funkcje mogą być wówczas ograniczone. Aplikacja internetowa jest uzależniona od dostępu do sieci, a tym samym jej testowanie. Aplikacja natywna ma dostęp do danych i innych aplikacji na urządzeniu (zdjęcia/ kalendarz...), co też wymaga testowania prawidłowej integracji tych usług.
 
-# :computer: TASK 4 :computer: SQL part 1
+# :computer: TASK 5 :computer: SQL part 1
 ## Subtask 3 
 \1. Wyświetl tabelę actors w kolejności alfabetycznej sortując po kolumnie surname.
 ```sql
@@ -245,3 +245,39 @@ WHERE price > 9
 AND movie_id BETWEEN 2 AND 8
 ```
 ![image](https://user-images.githubusercontent.com/116153467/217802132-1572c7ea-40e0-4424-8c41-f4fe1710afbd.png)
+
+# :computer: TASK 6 :computer: SQL part 2
+## Subtask 3 
+\11. Popełniłam błąd wpisując nazwisko Ani Miler – wpisałam Muler. Znajdź i zastosuj funkcję, która poprawi mój karkołomny błąd 🙈
+
+![image](https://user-images.githubusercontent.com/116153467/219617215-054bca11-3264-46bf-9f95-d507fea1313a.png)
+
+\12. Pobrałam za dużo pieniędzy od klienta, który kupił w ostatnim czasie film o id 4. Korzystając z funkcji join sprawdź, jak ma na imię klient i jakiego ma maila. W celu napisania mu wiadomości o pomyłce fantastycznej szefowej.
+```sql
+SELECT s.sale_date
+,c.name
+,c.email
+,m.title
+FROM customers AS c JOIN sale AS s ON c.customer_id = s.customer_id
+JOIN movies AS m ON m.movie_id = s.movie_id
+WHERE m.movie_id = 4
+```
+![image](https://user-images.githubusercontent.com/116153467/219618767-f339d5ab-2c7a-4495-ad6e-3cb12e12da1f.png)
+
+\13. Na pewno zauważył_ś, że sprzedawca zapomniał wpisać emaila klientce Patrycji. Uzupełnij ten brak wpisując: pati@mail.com
+
+![image](https://user-images.githubusercontent.com/116153467/219619100-df4ba546-87cf-4582-b836-e5b648524c4c.png)
+
+\14. Dla każdego zakupu wyświetl, imię i nazwisko klienta, który dokonał wypożyczenia oraz tytuł wypożyczonego filmu. (wykorzystaj do tego funkcję inner join, zastanów się wcześniej, które tabele Ci się przydadzą do wykonania ćwiczenia).
+
+\15. W celu anonimizacji danych, chcesz stworzyć pseudonimy swoich klientów. - Dodaj kolumnę o nazwie ‘pseudonym’ do tabeli customer,- Wypełnij kolumnę w taki sposób, aby pseudonim stworzył się z dwóch pierwszych liter imienia i ostatniej litery nazwiska. Np. Natalie Pilling → Nag
+
+\16. Wyświetl tytuły filmów, które zostały zakupione, wyświetl tabelę w taki sposób, aby tytuły się nie powtarzały.
+
+\17. Wyświetl wspólną listę imion wszystkich aktorów i klientów, a wynik uporządkuj alfabetycznie. (Wykorzystaj do tego funkcji UNION)
+
+\18. Polskę opanowała inflacja i nasz sklepik z filmami również dotknął ten problem. Podnieś cenę wszystkich filmów wyprodukowanych po 2000 roku o 2,5 $ (Pamiętaj, że dolar to domyślna jednostka- nie używaj jej nigdzie).
+
+\19. Wyświetl imię i nazwisko aktora o id 4 i tytuł filmu, w którym zagrał
+
+\20. A gdzie nasza HONIA!? Dodaj do tabeli customers nową krotkę, gdzie customer_id = 7, name = Honia, surname = Stuczka-Kucharska, email = honia@mail.com oraz pseudonym = Hoa
