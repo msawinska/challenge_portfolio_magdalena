@@ -293,8 +293,8 @@ ALTER TABLE customers
 ADD pseudonym char(3);
 ```
 ```sql
-update Customers AS c
- set pseudonym =   CONCAT(LEFT(name, 2), RIGHT(surname, 1));
+UPDATE Customers AS c
+SET pseudonym = CONCAT(LEFT(name, 2), RIGHT(surname, 1));
  ```
 ![image](https://user-images.githubusercontent.com/116153467/219651009-2a133b8a-617a-4ba4-b3f2-5a1ba1f9528c.png)
 
@@ -326,7 +326,7 @@ WHERE year_of_production > 2000;
 
 \19. Wyświetl imię i nazwisko aktora o id 4 i tytuł filmu, w którym zagrał
 ```sql
-select a.name
+SELECT a.name
 ,a.surname
 ,m.title
 FROM actors AS a join cast AS c ON a.actor_id = c.actor_id
