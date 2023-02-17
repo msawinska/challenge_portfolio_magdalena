@@ -292,14 +292,11 @@ JOIN movies AS m ON m.movie_id = s.movie_id
 ALTER TABLE customers
 ADD pseudonym char(3);
 ```
-SELECT name
-,surname
-,substring(name, 1,2) + substring(surname, -1,1) as pseudonym,
-FROM customers
-
-SELECT LEFT(name, 2) AS pseudoL
-,RIGHT(surname, 1) AS pseudoR
-FROM Customers;
+```sql
+update Customers AS c
+ set pseudonym =   CONCAT(LEFT(name, 2), RIGHT(surname, 1));
+ ```
+![image](https://user-images.githubusercontent.com/116153467/219651009-2a133b8a-617a-4ba4-b3f2-5a1ba1f9528c.png)
 
 \16. Wyświetl tytuły filmów, które zostały zakupione, wyświetl tabelę w taki sposób, aby tytuły się nie powtarzały.
 ```sql
@@ -320,7 +317,12 @@ ORDER by name ASC;
 ![image](https://user-images.githubusercontent.com/116153467/219638118-97ad2efa-e63a-4da4-8197-5ecb9bfd4654.png)
 
 \18. Polskę opanowała inflacja i nasz sklepik z filmami również dotknął ten problem. Podnieś cenę wszystkich filmów wyprodukowanych po 2000 roku o 2,5 $ (Pamiętaj, że dolar to domyślna jednostka- nie używaj jej nigdzie).
-
+```sql
+UPDATE movies AS m 
+SET m.price = m.price + 2.5
+WHERE year_of_production > 2000;
+```
+![image](https://user-images.githubusercontent.com/116153467/219653256-d6baae9e-d9e2-4834-afae-3acf8ef12b31.png)
 
 \19. Wyświetl imię i nazwisko aktora o id 4 i tytuł filmu, w którym zagrał
 ```sql
@@ -334,3 +336,9 @@ WHERE a.actor_id = 4
 ![image](https://user-images.githubusercontent.com/116153467/219641418-3b41219d-7591-449c-bfea-2b0cedc28cca.png)
 
 \20. A gdzie nasza HONIA!? Dodaj do tabeli customers nową krotkę, gdzie customer_id = 7, name = Honia, surname = Stuczka-Kucharska, email = honia@mail.com oraz pseudonym = Hoa
+```sql
+INSERT INTO customers (customer_id, email, name, pseudonym, surname)
+VALUES ('7', 'honia@mail.com', 'Honia', 'Hoa', 'Stuczka-Kucharska');
+```
+![image](https://user-images.githubusercontent.com/116153467/219656183-3257d5c6-0065-4233-a405-a8d3c65ba5de.png)
+
