@@ -288,13 +288,49 @@ JOIN movies AS m ON m.movie_id = s.movie_id
 ![image](https://user-images.githubusercontent.com/116153467/219621137-fdcf4f88-9407-4b9f-aae9-ba4ffc1e7579.png)
 
 \15. W celu anonimizacji danych, chcesz stworzyć pseudonimy swoich klientów. - Dodaj kolumnę o nazwie ‘pseudonym’ do tabeli customer,- Wypełnij kolumnę w taki sposób, aby pseudonim stworzył się z dwóch pierwszych liter imienia i ostatniej litery nazwiska. Np. Natalie Pilling → Nag
+```sql
+ALTER TABLE customers
+ADD pseudonym char(3);
+```
+SELECT name
+,surname
+,substring(name, 1,2) + substring(surname, -1,1) as pseudonym,
+FROM customers
+
+SELECT LEFT(name, 2) AS pseudoL
+,RIGHT(surname, 1) AS pseudoR
+FROM Customers;
 
 \16. Wyświetl tytuły filmów, które zostały zakupione, wyświetl tabelę w taki sposób, aby tytuły się nie powtarzały.
+```sql
+SELECT DISTINCT
+s.movie_id
+,m.title
+FROM movies AS m join sale AS s ON s.movie_id = m.movie_id;
+```
+![image](https://user-images.githubusercontent.com/116153467/219637418-2c876014-1f05-4df0-8d09-42f23eb2c81b.png)
 
 \17. Wyświetl wspólną listę imion wszystkich aktorów i klientów, a wynik uporządkuj alfabetycznie. (Wykorzystaj do tego funkcji UNION)
+```sql
+SELECT name FROM customers
+UNION
+SELECT name FROM actors
+ORDER by name ASC;
+```
+![image](https://user-images.githubusercontent.com/116153467/219638118-97ad2efa-e63a-4da4-8197-5ecb9bfd4654.png)
 
 \18. Polskę opanowała inflacja i nasz sklepik z filmami również dotknął ten problem. Podnieś cenę wszystkich filmów wyprodukowanych po 2000 roku o 2,5 $ (Pamiętaj, że dolar to domyślna jednostka- nie używaj jej nigdzie).
 
+
 \19. Wyświetl imię i nazwisko aktora o id 4 i tytuł filmu, w którym zagrał
+```sql
+select a.name
+,a.surname
+,m.title
+FROM actors AS a join cast AS c ON a.actor_id = c.actor_id
+JOIN movies AS m ON c.movie_id = m.movie_id
+WHERE a.actor_id = 4
+```
+![image](https://user-images.githubusercontent.com/116153467/219641418-3b41219d-7591-449c-bfea-2b0cedc28cca.png)
 
 \20. A gdzie nasza HONIA!? Dodaj do tabeli customers nową krotkę, gdzie customer_id = 7, name = Honia, surname = Stuczka-Kucharska, email = honia@mail.com oraz pseudonym = Hoa
