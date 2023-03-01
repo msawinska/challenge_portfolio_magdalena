@@ -2,7 +2,7 @@
 ## Subtask 1
 9/10
 ## Subtask 3
-Dlaczego zdecydował_ś się na udział w challenge portfolio?
+Dlaczego zdecydował_ś się na udział w challenge portfolio DareIT?
 * Jestem mamą powracającą do zawodowej aktywności po okresie towarzyszenia dzieciom w edukacji domowej. Chcę się przebranżowić i aktywnie działam w tym kierunku. Uczestniczę w programie mentoringowym firmy Roche, szkolę się także we własnym zakresie. W związku z tym chcę prezentować efekty swojej aktywności w portfolio. Dlatego też postanowiłam wziąć udział w wyzwaniu. Chcę dowiedzieć się jak takie profesjonalne portfolio powinno wyglądać, poznać dobre praktyki w tym zakresie. Poza tym wyzwanie wymaga systematyczności i pozwala uzyskać feedback, co skłoniło mnie do skorzystania właśnie z tej formy nauki.
 ## Subtask 4 _Testy eksploracyjne_
 ### Opis aplikacji 'Scout Panel'
