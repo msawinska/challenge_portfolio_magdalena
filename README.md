@@ -346,4 +346,4 @@ VALUES ('7', 'honia@mail.com', 'Honia', 'Hoa', 'Stuczka-Kucharska');
 
 ## Subtask 3 [Portfolio](https://github.com/msawinska/portfolio/blob/main/README.md)
 
-## [Feedback](https://dareit.notion.site/Individual-Feedback-for-QA-Zosta-Testerem-Manualnym-Magdalena-Sawi-ska-149fdeeb9a1340aeb15506e9ef5dec1d)
+# :chart_with_upwards_trend: [Feedback](https://dareit.notion.site/Individual-Feedback-for-QA-Zosta-Testerem-Manualnym-Magdalena-Sawi-ska-149fdeeb9a1340aeb15506e9ef5dec1d)
